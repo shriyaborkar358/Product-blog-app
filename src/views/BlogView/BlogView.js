@@ -36,13 +36,13 @@ function BlogView() {
         </p>
         <div className="product-price-container-1">
           <b>
-            <span className="product-price">RS.{selectedData.price}</span>
+            <span className="product-price-1">RS.{selectedData.price}</span>
           </b>
           <del>
-            <span className="product-price">RS.{selectedData.mrp}</span>
+            <span className="product-price-1">RS.{selectedData.mrp}</span>
           </del>
           <b>
-            <span className="product-price" style={{ color: "green" }}>
+            <span className="product-price-1" style={{ color: "green" }}>
               {selectedData.discount}
             </span>
           </b>
