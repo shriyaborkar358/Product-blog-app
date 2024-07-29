@@ -59,3 +59,20 @@
     margin-right: 10px;
     font-size: 18px;
 }
+
+.product-btn-1{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px gray;
+}

@@ -35,6 +35,10 @@ function BlogCard({ id, title, image, price, discount, mrp, rating }) {
           </span>
         </b>
       </div>
+      <div className="product-btn-container">
+          <button className="product-btn-1">Add To Cart</button>
+          <button className="product-btn-1">Buy Now</button>
+        </div>
     </div>
   );
 }
