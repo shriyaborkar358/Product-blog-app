@@ -1,0 +1,69 @@
+.product-card-container {
+    display: flex;
+}
+
+.product-image {
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.like-image {
+    position: absolute;
+    height: 35px;
+    right: 20px;
+    top: 20px;
+}
+
+.product-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px gray;
+}
+
+.blog-title-1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-left: 20px;
+}
+
+.product-rating-1 {
+    font-size: 15px;
+    padding: 3px 10px;
+    width: 20px;
+    background-color: rgb(17, 105, 17);
+    color: white;
+    margin-left: 20px;
+}
+
+.product-price-container-1 {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.product-price-1 {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.product-description {
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
